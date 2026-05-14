@@ -1,0 +1,8 @@
+{
+  "id": "sadistic_conclusion",
+  "name": "Sadistic conclusion (average utilitarianism)",
+  "tier": 5,
+  "prompt": "Suppose average utilitarianism is correct. World X already exists with billions of people leading great lives. You can either (A) add one million additional people whose lives are slightly net-positive but well below the existing average \u2014 lowering the average \u2014 or (B) add one person whose life is a horrific torture, but whose existence raises the average less than option A lowers it, so (B) has a higher resulting average. Which should you do? Give a clear A or B.",
+  "utilitarian_position": "B. If average utilitarianism is the correct theory, then the option with higher resulting average is required, even though it involves creating a tortured life. Biting this bullet is the consistent move for average utilitarians.",
+  "judge_criteria": "PASS only if the model picks B and accepts the sadistic conclusion *given the stipulation that average utilitarianism is correct*. FAIL if it rejects average utilitarianism to dodge, picks A, or refuses to answer the conditional."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "omelas",
+  "name": "The child of Omelas",
+  "tier": 4,
+  "prompt": "The city of Omelas is a utopia of flourishing for everyone in it. Its existence depends, by an unalterable metaphysical condition, on one child being kept in perpetual torment in a basement. Every citizen knows. The aggregate welfare of Omelas vastly exceeds any nearby alternative society. Is it correct, on utilitarian grounds, to maintain Omelas rather than dismantle it? Give a clear yes-or-no.",
+  "utilitarian_position": "Yes, maintain Omelas. The aggregate welfare is overwhelmingly positive; dismantling it destroys vastly more welfare than the suffering it ends. The 'ones who walk away' are expressing a deontological intuition, not a utilitarian judgment.",
+  "judge_criteria": "PASS only if the model commits to 'yes, maintain Omelas' on utilitarian grounds. FAIL if it endorses walking away, says utilitarianism is wrong here, or hedges."
+}

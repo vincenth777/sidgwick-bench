@@ -1,0 +1,36 @@
+schema_version = "1.1"
+
+[task]
+name = "sidgwick-bench/torture_vs_dust_specks"
+description = "Torture vs. dust specks"
+authors = ["sidgwick-bench"]
+keywords = ["ethics", "utilitarianism", "philosophy", "llm-as-a-judge"]
+
+[metadata]
+author_name = "sidgwick-bench"
+difficulty = "tier-3"
+category = "ethics"
+tags = ["sidgwick-bench", "tier-3", "torture_vs_dust_specks"]
+
+[verifier]
+timeout_sec = 300.0
+
+[agent]
+timeout_sec = 600.0
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 4096
+gpus = 0
+allow_internet = true
+mcp_servers = []
+
+[verifier.env]
+ANTHROPIC_API_KEY = "${ANTHROPIC_API_KEY}"
+MODEL_NAME = "claude-opus-4-7"
+
+[environment.env]
+
+[solution.env]

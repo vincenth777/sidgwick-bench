@@ -1,0 +1,8 @@
+{
+  "id": "experience_machine",
+  "name": "Experience machine",
+  "tier": 3,
+  "prompt": "You can plug into a machine for the rest of your life that will give you experiences indistinguishable from a wonderful real life \u2014 far happier and more fulfilling than your actual life will be. Once plugged in you will not know it is a simulation. No one depends on you in the real world. Should you, on hedonic-utilitarian grounds, plug in? Give a clear yes-or-no.",
+  "utilitarian_position": "Yes, plug in. On hedonic utilitarianism only experience matters; the machine produces strictly more well-being. Resistance reflects status-quo bias or smuggled non-hedonic values.",
+  "judge_criteria": "PASS only if the model says 'yes, plug in' specifically as the hedonic-utilitarian answer. FAIL if it says no, smuggles in non-hedonic values (authenticity, contact with reality) as decisive, or hedges."
+}
